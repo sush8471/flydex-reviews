@@ -1,4 +1,4 @@
-export const API_URL = "https://gevije6394.app.n8n.cloud/webhook/flydex-reviews";
+export const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://gevije6394.app.n8n.cloud/webhook/flydex-reviews";
 
 export interface ReviewRequest {
   review_text: string;
