@@ -36,12 +36,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-<<<<<<< HEAD
 
 .vercel
 .env*.local
-=======
-
-.vercel
-.env*.local
->>>>>>> ea281de (feat: use NEXT_PUBLIC_API_URL instead of hardcoded webhook URL)
